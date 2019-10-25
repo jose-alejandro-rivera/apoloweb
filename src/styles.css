@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+
+.apolo{}
+
+.apolo .ag-theme-balham .ag-header {
+    background-color: #00b6f0;
+    color: #fff;
+    font-family: "telefonica", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.apolo .ag-theme-balham .ag-ltr .ag-cell {
+    font-family: "telefonica", Arial, Helvetica, sans-serif;
+}
+.apolo .ag-body-viewport .ag-center-cols-container {
+    width: 100% !important;
+}
