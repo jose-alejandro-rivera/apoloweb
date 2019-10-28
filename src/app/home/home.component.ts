@@ -21,19 +21,42 @@ class headers {
 export class HomeComponent implements OnInit {
 	body : body[];
   headers : headers[];
+  private rowSelection;
+  private autoGroupColumnDef;
+  private domLayout;
 
   columnDefs = [
-    {headerName: 'Make', field: 'make', sortable: true, filter: true },
-    {headerName: 'Model', field: 'model', sortable: true, filter: true },
-    {headerName: 'Price', field: 'price', sortable: true, filter: true}
+    {
+      headerName: "Seleccionar",
+      field: "athlete",
+      headerCheckboxSelection: true,
+      headerCheckboxSelectionFilteredOnly: true,
+      checkboxSelection: true,
+    },
+    {headerName: 'Make', field: 'make', sortable: true, filter: true,  resizable: true },
+    {headerName: 'Make', field: 'make', sortable: true, filter: true, resizable: true },
+    {headerName: 'Model', field: 'model', sortable: true, filter: true, resizable: true },
+    {headerName: 'Price', field: 'price', sortable: true, filter: true, resizable: true},
+    {headerName: 'Pricexxx', field: 'pricexxx', sortable: true, filter: true, resizable: true},
 ];
 
 rowData = [
-    { make: 'Toyota', model: 'Celica', price: 35000 },
-    { make: 'Ford', model: 'Mondeo', price: 32000 },
-    { make: 'Porsche', model: 'Boxter', price: 72000 }
+    { checkboxSelection: true, make: 'Toyota', model: 'Celica', price: 35000, pricexxx: 20000 },
+    { checkboxSelection: true, make: 'Ford', model: 'Mondeo', price: 32000, pricexxx: 369888 },
+    { checkboxSelection: true, make: 'Porsche', model: 'Boxter', price: 72000, pricexxx: 92540000 }
+
 ];
-  constructor(private ps: HomeService) { }
+  constructor(private ps: HomeService) { 
+
+
+    this.rowSelection = "multiple";
+    this.autoGroupColumnDef = {
+      headerName: "Athlete",
+      field: "athlete",
+      cellRenderer: "agGroupCellRenderer",
+      cellRendererParams: { checkbox: true }
+    };
+  }
 
   ngOnInit() {
   	this.ps
