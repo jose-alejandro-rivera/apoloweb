@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HomeService } from '../home.service';
+import { FormBuilder } from "@angular/forms";
+import { CategoriaFlujoService } from "../categoria-flujo.service";
 
 class body {
   ProductName: string;
@@ -25,6 +27,9 @@ export class HomeComponent implements OnInit {
   private autoGroupColumnDef;
   private domLayout;
 
+  oppoSuits: any = [];
+  filas: any = [];
+
   columnDefs = [
     {
       headerName: "Seleccionar",
@@ -46,8 +51,10 @@ rowData = [
     { checkboxSelection: true, make: 'Porsche', model: 'Boxter', price: 72000, pricexxx: 92540000 }
 
 ];
-  constructor(private ps: HomeService) { 
-
+  constructor(private ps: HomeService, private fb: FormBuilder, private cf: CategoriaFlujoService) { 
+    setTimeout (()=> {
+      this.selectPrueba()
+    },500) 
 
     this.rowSelection = "multiple";
     this.autoGroupColumnDef = {
@@ -57,21 +64,41 @@ rowData = [
       cellRendererParams: { checkbox: true }
     };
   }
+  
 
   ngOnInit() {
-  	this.ps
+
+  	/*this.ps
       .getusers()
       .subscribe((data: body[]) => {
         console.log(data);
       	if(data){
-            console.log(data, 'if');
+            //console.log(data, 'if');
             this.body = data;
             this.headers = data
 
       	}
        
 
-    });
+    });*/
+
   }
 
+  selectPrueba(){
+    this.cf
+    .getusers()
+    .subscribe((data) => {
+      this.oppoSuits = data;
+      for(let arreglo of this.oppoSuits.body){
+          this.filas.push(
+            {
+              id: arreglo.id,
+              nombre: arreglo.nombre, 
+              apellido: arreglo.apellido
+            }
+          )
+      }
+      console.log(this.filas, 'HGASHDGHASD');
+    })
+  }
 }

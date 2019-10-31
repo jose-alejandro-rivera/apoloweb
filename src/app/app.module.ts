@@ -8,6 +8,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeService } from './home.service';
 import { AgGridModule } from 'ag-grid-angular';
+import { ReactiveFormsModule } from '@angular/forms';
+import { CategoriaFlujoService } from './categoria-flujo.service';
 
 @NgModule({
   declarations: [
@@ -19,9 +21,10 @@ import { AgGridModule } from 'ag-grid-angular';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    AgGridModule.withComponents([])
+    AgGridModule.withComponents([]),
+    ReactiveFormsModule
   ],
-  providers: [HomeService],
+  providers: [HomeService,CategoriaFlujoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

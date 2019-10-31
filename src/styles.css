@@ -16,3 +16,25 @@
 .apolo .ag-body-viewport .ag-center-cols-container {
     width: 100% !important;
 }
+.apolo-icono-usuario{
+    width: 100%;
+    float: left;
+    color: #FFF;
+}
+.apolo-centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apolo-fuente {
+    font-family: "telefonicaReg", Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+.apolo-tprincipales {
+    width: 100%;
+    float: left;
+    background-color: #5BC500;
+    font-size: 25px;
+    height: 65px;
+}
+
