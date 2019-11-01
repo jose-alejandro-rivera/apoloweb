@@ -130,7 +130,41 @@
     .apolo-centrado-right {
         padding-top: 10px;
         width: 100%
-    }      
+    }  
+    
+    
+    .apolo-img {
+        display: none;
+    
+    }
+    .apolo-img1 {
+        display: block;
+    
+    }
+    .apolo-title{
+        background:#0029A6 ;
+    }
+    .apolo-title-centrado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .apolo-title-principales {
+        width: 100%;
+        float: left;
+        background-color: #0029A6;
+        font-size: 25px;
+        height: 65px;
+    }
+    .telefonica .apolo-tprincipales {
+        
+        /* width: 100%; */
+        /* float: left; */
+        background-color: #0029A6;
+        /* font-size: 25px;
+        height: 65px; */
+    }
 
 }
 @media only screen and (max-width: 980px) and (min-width: 821px) {

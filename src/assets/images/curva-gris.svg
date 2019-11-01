@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="537px" viewBox="0 0 1440 537" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-------Cart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Image" transform="translate(-7200.000000, -5418.000000)" fill="#EEEEEE">
+            <path d="M8640.00022,5693.00201 C8594.13426,5714.53742 8551.04191,5734.95199 8511.42405,5753.86127 C8034.31949,5982.33241 7547.01133,6046.2187 7200,5785.09258 L7200.00022,5418 L8640.00022,5418 L8640.00022,5693.00201 Z" id="Mask"></path>
+        </g>
+    </g>
+</svg>

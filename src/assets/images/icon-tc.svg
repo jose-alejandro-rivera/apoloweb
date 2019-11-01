@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="143" height="70" viewBox="0 0 143 70">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#E5FCFC" fill-rule="nonzero" d="M67.438 44.681l-49.535-3.053C7.661 41.1 5.792 38.745 5.997 34.795c.334-6.439 10.519-5.698 10.128-5.736.046 0 .086-.004.13-.004 4.744.071 5.719-1.106 5.785-3.07.069-2.051-.899-3.32-6.218-3.513a23.742 23.742 0 0 0-2.136.01 14.924 14.924 0 0 0-.711-.03 35.765 35.765 0 0 0-1.555-.075C1.59 21.8-.163 19.46.01 15.57c.157-3.485 1.8-5.917 9.203-5.649l64.52 2.341-6.296 32.42z"/>
+        <path fill="#E5FCFC" fill-rule="nonzero" d="M73.404 59.796L69.3 27l64.52 2.34c7.403.27 8.88 2.814 8.802 6.302-.088 3.894-1.994 6.1-11.838 5.965a31.609 31.609 0 0 0-1.557-.038 14.49 14.49 0 0 0-.71-.021 23.78 23.78 0 0 0-2.13-.165c-5.32-.193-6.37 1.002-6.44 3.055-.066 1.963.828 3.207 5.564 3.48.045.003.085.01.13.014-.392.009 9.818.008 9.719 6.456-.061 3.955-2.083 6.17-12.337 5.953l-49.619-.545z"/>
+        <ellipse cx="71.442" cy="66.872" fill="#E7EFF5" fill-rule="nonzero" rx="43.542" ry="2.972"/>
+        <g transform="translate(29.7)">
+            <rect width="85.5" height="56.7" x="3.6" y="2.7" fill="#00A9E0" rx="8.1"/>
+            <rect width="85.5" height="56.7" fill="#6AE0F3" rx="8.1"/>
+            <path fill="#B7B9B9" fill-opacity=".1" d="M6.252 56.7C3.176 56.7 0 53.693 0 51.623L.66 2.546c0-.68.819-1.232 1.83-1.232L64.854 0c.762 0 1.416.314 1.691.76.153.247-.028.531-.376.66-5.216 1.936-48.226 18.671-48.226 44.067 0 6.958 7.3 9.436 12.519 10.602.925.207.59.611.59.611h-24.8z" style="mix-blend-mode:multiply"/>
+            <rect width="21.6" height="9.9" x="9" y="9" fill="#FFC55F" rx="3.6"/>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="8.1" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="26.1" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="44.1" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="63" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="15.3" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="34.2" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="52.2" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="70.2" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="11.7" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="29.7" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="48.6" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="66.6" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="19.8" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="37.8" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="55.8" y="46.5">X</tspan>
+            </text>
+            <text fill="#3C3C3C" font-family="LucidaGrande-Bold, Lucida Grande" font-size="6.3" font-weight="bold" letter-spacing="-.075">
+                <tspan x="74.7" y="46.5">X</tspan>
+            </text>
+            <path fill="#E7E7E7" d="M8.1 31.5h70.2v6.3H8.1z"/>
+        </g>
+    </g>
+</svg>
