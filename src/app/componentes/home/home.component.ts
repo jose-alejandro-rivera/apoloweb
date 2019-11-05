@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { HomeService } from '../home.service';
+import { HomeService } from '../../home.service';
 import { FormBuilder } from "@angular/forms";
-import { CategoriaFlujoService } from "../categoria-flujo.service";
+import { CategoriaFlujoService } from "../../categoria-flujo.service";
 
 class body {
   ProductName: string;

@@ -1,29 +1,30 @@
-<div class="container apolo">
-      <div class="apolo-icono-mov apolo-centrado-left">
-        <img src="/assets/imagenes apoloweb/logo-pcpc1.png">
-      </div>
-  <div class="apolo-usuario apolo-centrado-right">
-      usuario-prueba
-  </div>
+<div class="apolo">
+
 
   <div class="apolo-tprincipales apolo-fuente apolo-centrado">
-      Categoría flujo
-      
-  </div>
-    
-    <form [formGroup]="oppoSuitsForm" (ngSubmit)="onSubmit()">
-     
-        <select formControlName="name">
-            suit
-          <option *ngFor="let suit of filas" value="{{ suit.id }}">{{ suit.nombre }} {{suit.id}}</option>
-        </select>
-      
-        <button>Submit</button>
-      </form>
-      
-    </div>
+    Categoría flujo
 
-   
+  </div>
+
+  <div class="apolo-formulario">
+    <form [formGroup]="oppoSuitsForm" (ngSubmit)="onSubmit()">
+
+      <select formControlName="name">
+        suit
+        <option *ngFor="let suit of filas" value="{{ suit.id }}">{{ suit.nombre }} {{suit.id}}</option>
+      </select>
+      
+      <div class="apolo-button apolo-centrado ">
+        <button class="apolo-button-crear apolo-fuente">Crear</button>
+      </div>
+
+    </form>
+  </div>
+
+
+</div>
+
+
 
 
 <!--table class="table table-hover">
@@ -43,4 +44,3 @@
       </tr>
   </tbody>
 </table-->
-
